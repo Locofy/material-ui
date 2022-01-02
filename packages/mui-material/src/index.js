@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-imports */
 /* eslint-disable import/export */
 import * as colors from './colors';
 
@@ -7,6 +8,8 @@ export * from './styles';
 export * from './utils';
 
 export * from '@mui/base';
+
+export * from '@mui/lab';
 
 export { default as Accordion } from './Accordion';
 export * from './Accordion';

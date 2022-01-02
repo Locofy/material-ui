@@ -27,6 +27,7 @@
     "url": "https://opencollective.com/mui"
   },
   "scripts": {
+    "buildd": "yarn build:umd && yarn build:copy-files",
     "build": "yarn build:legacy && yarn build:modern && yarn build:node && yarn build:stable && yarn build:umd && yarn build:types && yarn build:copy-files",
     "build:legacy": "node ../../scripts/build legacy",
     "build:modern": "node ../../scripts/build modern",
@@ -62,6 +63,7 @@
   "dependencies": {
     "@babel/runtime": "^7.16.3",
     "@mui/base": "5.0.0-alpha.62",
+    "@mui/lab": "5.0.0-alpha.62",
     "@mui/system": "^5.2.6",
     "@mui/types": "^7.1.0",
     "@mui/utils": "^5.2.3",

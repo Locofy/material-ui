@@ -100,14 +100,14 @@ export * from './StaticDateTimePicker';
 export { default as StaticTimePicker } from './StaticTimePicker';
 export * from './StaticTimePicker';
 
-export { default as TabContext } from './TabContext';
-export * from './TabContext';
+// export { default as TabContext } from './TabContext';
+// export * from './TabContext';
 
-export { default as TabList } from './TabList';
-export * from './TabList';
+// export { default as TabList } from './TabList';
+// export * from './TabList';
 
-export { default as TabPanel } from './TabPanel';
-export * from './TabPanel';
+// export { default as TabPanel } from './TabPanel';
+// export * from './TabPanel';
 
 export { default as TimePicker } from './TimePicker';
 export * from './TimePicker';
@@ -153,3 +153,6 @@ export * from './useAutocomplete';
 
 export { default as Masonry } from './Masonry';
 export * from './Masonry';
+
+export { default as AdapterDateFns } from './AdapterDateFns';
+export * from './AdapterDateFns';

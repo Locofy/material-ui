@@ -98,6 +98,14 @@ const nestedFolder = {
       return resolveNestedImport('mui-base', importee);
     }
 
+    if (importee.indexOf('@mui/lab/') === 0) {
+      return resolveNestedImport('mui-lab', importee);
+    }
+
+    if (importee.indexOf('@mui/material/') === 0) {
+      return resolveNestedImport('mui-material', importee);
+    }
+
     if (importee.indexOf('@mui/private-theming/') === 0) {
       return resolveNestedImport('mui-private-theming', importee);
     }
